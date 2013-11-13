@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="System.Collections.Immutable">
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.Add(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="pairs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.SetItem(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableDictionary`2.SetItems(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Add(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Insert(System.Int32,`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.RemoveAll(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.RemoveAt(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.RemoveRange(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.RemoveRange(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableList`1.SetItem(System.Int32,`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableQueue`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableQueue`1.Dequeue">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableQueue`1.Enqueue(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableQueue`1.Peek">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Add(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Except(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Intersect(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.SymmetricExcept(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableSet`1.Union(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableStack`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableStack`1.Peek">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableStack`1.Pop">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.IImmutableStack`1.Push(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Contains``2(System.Collections.Immutable.IImmutableDictionary{``0,``1},``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2(System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.Create``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2(System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateBuilder``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.CreateRange``2(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.GetValueOrDefault``2(System.Collections.Immutable.IImmutableDictionary{``0,``1},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.GetValueOrDefault``2(System.Collections.Immutable.IImmutableDictionary{``0,``1},``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary.ToImmutableDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEqualityComparer{``2})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Add(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="pairs">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.ContainsKey(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.ContainsValue(`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.SetItem(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.SetItems(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.ToBuilder">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.WithComparers(System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.WithComparers(System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.Add(`0,`1)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.ContainsKey(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.ContainsValue(`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.GetValueOrDefault(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.GetValueOrDefault(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.Remove(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.ToImmutable">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.TryGetValue(`0,`1@)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(System.Collections.Generic.IEqualityComparer{``0},``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.Create``1(``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateBuilder``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateBuilder``1(System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.CreateRange``1(System.Collections.Generic.IEqualityComparer{``0},System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.ToImmutableHashSet``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet.ToImmutableHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Add(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Except(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Intersect(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.SymmetricExcept(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.ToBuilder">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Union(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.WithComparer(System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableHashSet`1.Builder.ToImmutable">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Create``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Create``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Create``1(``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.CreateBuilder``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.IndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.LastIndexOf``1(System.Collections.Immutable.IImmutableList{``0},``0,System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Remove``1(System.Collections.Immutable.IImmutableList{``0},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.RemoveRange``1(System.Collections.Immutable.IImmutableList{``0},System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.Replace``1(System.Collections.Immutable.IImmutableList{``0},``0,``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList.ToImmutableList``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Add(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.BinarySearch(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.ConvertAll``1(System.Func{`0,``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.CopyTo(`0[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.CopyTo(`0[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Exists(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Find(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindAll(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindIndex(System.Int32,System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindIndex(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindLast(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindLastIndex(System.Int32,System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.FindLastIndex(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.ForEach(System.Action{`0})">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.IndexOf(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.IndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Insert(System.Int32,`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.LastIndexOf(`0,System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Remove(`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.RemoveAll(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.RemoveAt(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.RemoveRange(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.RemoveRange(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Replace(`0,`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Replace(`0,`0,System.Collections.Generic.IEqualityComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Reverse">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Reverse(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.SetItem(System.Int32,`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Sort">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Sort(System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Sort(System.Comparison{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.ToBuilder">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.TrueForAll(System.Predicate{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.ConvertAll``1(System.Func{`0,``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(System.Int32,`0[],System.Int32,System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(`0[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.CopyTo(`0[],System.Int32)">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Exists(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Find(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindAll(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Int32,System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindIndex(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindLast(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Int32,System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.FindLastIndex(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.ForEach(System.Action{`0})">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.RemoveAll(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Collections.Generic.IComparer{`0})">
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})">
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.ToImmutable">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableList`1.Builder.TrueForAll(System.Predicate{`0})">
+    <parameter name="match">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue.Create``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue.Create``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue.Create``1(``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue.Dequeue``1(System.Collections.Immutable.IImmutableQueue{``0},``0@)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.Dequeue">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.Dequeue(`0@)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.Enqueue(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableQueue`1.Peek">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateRange``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IComparer{``1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary.ToImmutableSortedDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IComparer{``1},System.Collections.Generic.IEqualityComparer{``2})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Add(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.ContainsKey(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.ContainsValue(`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.RemoveRange(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.SetItem(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.SetItems(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.ToBuilder">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.WithComparers(System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.WithComparers(System.Collections.Generic.IComparer{`0},System.Collections.Generic.IEqualityComparer{`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.Add(`0,`1)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.AddRange(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})">
+    <parameter name="items">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.ContainsKey(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.ContainsValue(`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.GetValueOrDefault(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.GetValueOrDefault(`0,`1)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.Remove(`0)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.ToImmutable">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.CreateBuilder``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.CreateBuilder``1(System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.CreateRange``1(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Add(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Except(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.IndexOf(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Intersect(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Remove(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Reverse">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.SymmetricExcept(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.ToBuilder">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Union(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.WithComparer(System.Collections.Generic.IComparer{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="comparer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.Contains(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.ToImmutable">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack.Create``1">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack.Create``1(``0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack.Create``1(``0[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack.CreateRange``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack.Pop``1(System.Collections.Immutable.IImmutableStack{``0},``0@)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.Clear">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.GetEnumerator">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.Peek">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.Pop">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.Pop(`0@)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:System.Collections.Immutable.ImmutableStack`1.Push(`0)">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+</assembly>

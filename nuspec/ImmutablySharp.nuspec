@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ImmutablySharp</id>
+    <version>$version$</version>
+    <authors>Petr Krebs</authors>
+    <owners>Petr Krebs</owners>
+    <title>ImmutablySharp plugin for ReSharper</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides annotations and code inspections for working with the System.Collections.Immutable library.</description>
+    <projectUrl>https://github.com/petr-k/ImmutablySharp/</projectUrl>
+    <copyright>Copyright &#x00A9; 2013 Petr Krebs</copyright>
+    <tags>resharper immutablysharp immutable-collections System.Collections.Immutable</tags>
+    <dependencies>
+      <dependency id="Resharper" version="8.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\output\$configuration$\8.0\**\*.dll" target="ReSharper\v8.0\plugins"/>
+    <file src="..\output\$configuration$\8.0\**\*.pdb" target="ReSharper\v8.0\plugins"/>
+    <file src="..\annotations\System.Collections.Immutable\annotations.xml" target="ReSharper\vAny\annotations\System.Collections.Immutable"/>
+  </files>
+</package>

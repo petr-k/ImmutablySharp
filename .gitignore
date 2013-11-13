@@ -1,0 +1,9 @@
+/output
+*.suo
+
+/src/packages
+
+bin
+
+obj
+*.user
